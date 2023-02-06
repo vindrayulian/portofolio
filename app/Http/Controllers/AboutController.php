@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class AboutController extends Controller
 {
-    public function about(){
-        return view('about.main',[
+    public function team(){
+        return view('team.main',[
             'title' => 'About Vindra Arya Yulian'
         ]);
 
